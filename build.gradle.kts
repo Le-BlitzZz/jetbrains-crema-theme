@@ -4,6 +4,7 @@ plugins {
     id("java")
     id("org.jetbrains.intellij.platform") version "2.7.1"
     id("org.jetbrains.changelog") version "2.4.0"
+    id("org.gradle.toolchains.foojay-resolver-convention") version "0.8.0"
 }
 
 group = providers.gradleProperty("pluginGroup").get()
