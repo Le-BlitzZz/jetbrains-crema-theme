@@ -4,6 +4,7 @@ plugins {
     id("java")
     id("org.jetbrains.intellij.platform") version "2.7.1"
     id("org.jetbrains.changelog") version "2.4.0"
+    id("org.jetbrains.kotlin.jvm") version "2.2.0"
 }
 
 group = providers.gradleProperty("pluginGroup").get()
@@ -24,6 +25,10 @@ dependencies {
 }
 
 java { toolchain { languageVersion.set(JavaLanguageVersion.of(17)) } }
+
+kotlin {
+    jvmToolchain(17)
+}
 
 intellijPlatform {
     buildSearchableOptions = false
