@@ -1,15 +1,32 @@
-<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.leblitzzz.jetbrainscrematheme</id>
-    <name>jetbrains-crema-theme</name>
-    <vendor>le-blitzzz</vendor>
+    <id>com.github.Le-BlitzZz.crema</id>
+    <name>Crema Theme</name>
+    <vendor url="https://github.com/Le-BlitzZz">Le-BlitzZzZ</vendor>
+    <version>1.0.0</version>
+    <description><![CDATA[
+<h2>🚀 Dark theme for JetBrains IDEs</h2>
 
+<h3>Inspired by</h3>
+<ul>
+  <li>ui and editor background colors of Default Dark Modern theme in Visual Studio Code</li>
+  <li>project structure of Catppuccin's jetbrains</li>
+  <li>editor color scheme of default Dark theme in Jetbrains IDEs</li>
+</ul>
+
+<h3>Help</h3>
+
+For further help, see also:
+
+<ul>
+  <li><a href="https://github.com/Le-BlitzZz/jetbrains-crema-theme" target="_blank">GitHub Repository</a></li>
+</ul>
+
+<p>Copyright &copy; 2025-present <a href="https://github.com/Le-BlitzZz" target="_blank">Le-BlitzZz</a>
+<p>LICENSE: <a href="https://github.com/Le-BlitzZz/jetbrains-crema-theme/blob/main/LICENSE">MIT</a></p>
+]]></description>
     <depends>com.intellij.modules.platform</depends>
-
-    <resource-bundle>messages.MyBundle</resource-bundle>
-
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.leblitzzz.jetbrainscrematheme.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="com.github.leblitzzz.jetbrainscrematheme.startup.MyProjectActivity" />
+        <themeProvider id="com.github.Le-BlitzZz.crema.theme" path="/themes/crema.theme.json"/>
+        <bundledColorScheme id="com.github.Le-BlitzZz.crema.scheme" path="/themes/crema.xml"/>
     </extensions>
 </idea-plugin>
