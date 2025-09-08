@@ -30,7 +30,10 @@ intellijPlatform {
 
     pluginConfiguration {
         name.set(providers.gradleProperty("pluginName"))
-        ideaVersion { sinceBuild.set(providers.gradleProperty("pluginSinceBuild")) }
+        version.set(providers.gradleProperty("pluginVersion"))
+        ideaVersion {
+            sinceBuild.set(providers.gradleProperty("pluginSinceBuild"))
+        }
     }
 
     signing {
@@ -56,9 +59,4 @@ intellijPlatform {
 
 tasks {
     withType<RunIdeTask>().configureEach { autoReload.set(true) }
-
-    patchPluginXml {
-        version.set(providers.gradleProperty("pluginVersion"))
-        sinceBuild.set(providers.gradleProperty("pluginSinceBuild"))
-    }
 }
