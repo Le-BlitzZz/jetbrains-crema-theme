@@ -43,11 +43,11 @@
   "ui": {
     "*": {
       "arc": "7",
-      "background": "panelBackground",
+      "background": "primaryBackground",
       "borderColor": "borderColor",
-      "disabledBackground": "panelBackground",
+      "disabledBackground": "primaryBackground",
       "foreground": "primaryForeground",
-      "inactiveBackground": "panelBackground",
+      "inactiveBackground": "primaryBackground",
       "selectionBackground": "selectionBackground",
       "selectionForeground": "primaryForeground",
       "selectionInactiveBackground": "selectionInactiveBackground",
