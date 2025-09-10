@@ -9,7 +9,7 @@
     <option name="DIFF_SEPARATORS_BACKGROUND" value="636363"/>
     <option name="DOCUMENTATION_COLOR" value="181818"/>
     <option name="DOC_COMMENT_LINK" value="569cd6"/>
-    <option name="ERROR_HINT" value=""/>
+    <option name="ERROR_HINT" value="781732"/>
     <option name="FILESTATUS_ADDED" value="72be7d"/>
     <option name="FILESTATUS_COPIED" value="72be7d"/>
     <option name="FILESTATUS_DELETED" value="db6473"/>
@@ -959,7 +959,6 @@
       <value>
         <option name="FOREGROUND" value="79bbd4"/>
       </value>
-    </option>
     </option>
     <option name="LIVE_TEMPLATE_INACTIVE_SEGMENT">
       <value>

@@ -432,6 +432,9 @@
         "underlineColor": "text",
         "underlineHeight": 2
       },
+      "Stripe": {
+        "background": "panelBackground"
+      },
       "background": "panelBackground"
     },
     "Tree": {

@@ -9,7 +9,7 @@
     <option name="DIFF_SEPARATORS_BACKGROUND" value="{{overlay0}}"/>
     <option name="DOCUMENTATION_COLOR" value="{{mantle}}"/>
     <option name="DOC_COMMENT_LINK" value="{{blue}}"/>
-    <option name="ERROR_HINT" value="{{781732}}"/>
+    <option name="ERROR_HINT" value="781732"/>
     <option name="FILESTATUS_ADDED" value="{{green}}"/>
     <option name="FILESTATUS_COPIED" value="{{green}}"/>
     <option name="FILESTATUS_DELETED" value="{{red}}"/>
@@ -959,7 +959,6 @@
       <value>
         <option name="FOREGROUND" value="{{sky}}"/>
       </value>
-    </option>
     </option>
     <option name="LIVE_TEMPLATE_INACTIVE_SEGMENT">
       <value>
