@@ -36,7 +36,7 @@
     <option name="HTML_TAG_TREE_LEVEL3" value="{{blue}}"/>
     <option name="HTML_TAG_TREE_LEVEL4" value="{{sky}}"/>
     <option name="HTML_TAG_TREE_LEVEL5" value="{{mauve}}"/>
-    <option name="INDENT_GUIDE" value="{{surface1}}"/>
+    <option name="INDENT_GUIDE" value="{{base}}"/>
     <option name="INFORMATION_HINT" value="{{surface0}}"/>
     <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="{{opacity surface1 0.65}}"/>
     <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="{{opacity surface2 0.55}}"/>
@@ -53,6 +53,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="{{surface2}}"/>
     <option name="SELECTED_INDENT_GUIDE" value="{{overlay1}}"/>
     <option name="SELECTION_BACKGROUND" value="3a3a3a"/>
+    <option name="STICKY_LINES_BORDER_COLOR" value="{{mantle}}"/>
     <option name="VCS_ANNOTATIONS_COLOR_1" value="{{opacity pink 0.6}}"/>
     <option name="VCS_ANNOTATIONS_COLOR_2" value="{{opacity red 0.4}}"/>
     <option name="VCS_ANNOTATIONS_COLOR_3" value="{{opacity brown 0.7}}"/>
@@ -827,7 +828,7 @@
     </option>
     <option name="INLAY_TEXT_WITHOUT_BACKGROUND">
       <value>
-        <option name="FOREGROUND" value="{{surface2}}"/>
+        <option name="FOREGROUND" value="{{overlay1}}"/>
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT">

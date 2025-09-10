@@ -36,7 +36,7 @@
     <option name="HTML_TAG_TREE_LEVEL3" value="569cd6"/>
     <option name="HTML_TAG_TREE_LEVEL4" value="79bbd4"/>
     <option name="HTML_TAG_TREE_LEVEL5" value="ad82e4"/>
-    <option name="INDENT_GUIDE" value="3f3f3f"/>
+    <option name="INDENT_GUIDE" value="1f1f1f"/>
     <option name="INFORMATION_HINT" value="2e2e2e"/>
     <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="343434"/>
     <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="3b3b3b"/>
@@ -53,6 +53,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="525252"/>
     <option name="SELECTED_INDENT_GUIDE" value="777777"/>
     <option name="SELECTION_BACKGROUND" value="3a3a3a"/>
+    <option name="STICKY_LINES_BORDER_COLOR" value="181818"/>
     <option name="VCS_ANNOTATIONS_COLOR_1" value="835d80"/>
     <option name="VCS_ANNOTATIONS_COLOR_2" value="6a3b41"/>
     <option name="VCS_ANNOTATIONS_COLOR_3" value="9a6f5d"/>
@@ -827,7 +828,7 @@
     </option>
     <option name="INLAY_TEXT_WITHOUT_BACKGROUND">
       <value>
-        <option name="FOREGROUND" value="525252"/>
+        <option name="FOREGROUND" value="777777"/>
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT">
