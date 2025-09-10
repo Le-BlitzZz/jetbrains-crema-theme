@@ -960,10 +960,6 @@
         <option name="FOREGROUND" value="{{sky}}"/>
       </value>
     </option>
-    <option name="LIVE_TEMPLATE_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_COLOR" value="{{lavender}}"/>
-      </value>
     </option>
     <option name="LIVE_TEMPLATE_INACTIVE_SEGMENT">
       <value>
