@@ -36,7 +36,7 @@
     <option name="HTML_TAG_TREE_LEVEL3" value="569cd6"/>
     <option name="HTML_TAG_TREE_LEVEL4" value="79bbd4"/>
     <option name="HTML_TAG_TREE_LEVEL5" value="ad82e4"/>
-    <option name="INDENT_GUIDE" value="1f1f1f"/>
+    <option name="INDENT_GUIDE" value="3f3f3f"/>
     <option name="INFORMATION_HINT" value="2e2e2e"/>
     <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="343434"/>
     <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="3b3b3b"/>
@@ -1504,7 +1504,7 @@
     <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER"/>
     <option name="YAML_SCALAR_KEY">
       <value>
-        <option name="FOREGROUND" value="569cd6"/>
+        <option name="FOREGROUND" value="c586c0"/>
       </value>
     </option>
     <option name="YAML_SCALAR_LIST">

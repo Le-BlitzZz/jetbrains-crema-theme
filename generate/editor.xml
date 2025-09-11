@@ -36,7 +36,7 @@
     <option name="HTML_TAG_TREE_LEVEL3" value="{{blue}}"/>
     <option name="HTML_TAG_TREE_LEVEL4" value="{{sky}}"/>
     <option name="HTML_TAG_TREE_LEVEL5" value="{{mauve}}"/>
-    <option name="INDENT_GUIDE" value="{{base}}"/>
+    <option name="INDENT_GUIDE" value="{{surface1}}"/>
     <option name="INFORMATION_HINT" value="{{surface0}}"/>
     <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="{{opacity surface1 0.65}}"/>
     <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="{{opacity surface2 0.55}}"/>
@@ -1504,7 +1504,7 @@
     <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER"/>
     <option name="YAML_SCALAR_KEY">
       <value>
-        <option name="FOREGROUND" value="{{blue}}"/>
+        <option name="FOREGROUND" value="{{pink}}"/>
       </value>
     </option>
     <option name="YAML_SCALAR_LIST">
